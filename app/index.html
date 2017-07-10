@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="agileAppApp">
 
 <head>
   <meta charset="utf-8">
@@ -12,20 +12,41 @@
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
-  <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
+
+  <nav class="navbar navbar-default" role="navigation" >
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+
+
+      <a class="navbar-brand" rel="home" href="#">
+          <img src="/images/ferg.jpg" class="img-responsive" >
+      </a>
+
+      <a class="navbar-brand" rel="home" href="#">Home</a>
+
+
+
+    </div>
+  </nav>
 </head>
 
-<body ng-app="agileAppApp">
-  <div class="span12" style="background-color: #02436B;height: 100px">
-          <br>
-          <img src="images/ferg.jpg" style="width: 20%; height: auto" />
-      </div>
-      <div ng-view> 
-      </div>
+<body class="container-fluid ">
 
- 
+
+
+  <div ng-view>
+
+  </div>
+
+
   <!-- build:js(.) scripts/vendor.js -->
   <!-- bower:js -->
   <!-- endbower -->
@@ -41,6 +62,7 @@
   <script src="/bower_components/angular-sanitize/angular-sanitize.js"></script>
   <script src="/bower_components/angular-touch/angular-touch.js"></script>
   <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <script src="scripts/app.js"></script>
   <script src="scripts/controllers/main.js"></script>
   <script src="scripts/controllers/about.js"></script>
