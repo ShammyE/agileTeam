@@ -1,3 +1,28 @@
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+
+.navbar {
+    background-color: #00446B;
+    border-color: #00446B;
+
+}
+.navbar.navbar-inverse {
+  border: none;
+  color: white;
+}
+.navbar .navbar-brand {
+  padding-top: 0px;
+  color: white;
+}
+.navbar .navbar-brand img {
+  height: 50px;
+  color: white;
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -5,9 +30,7 @@
   padding: 0.2em 0;
 }
 
-body {
-  padding: 0;
-}
+
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
