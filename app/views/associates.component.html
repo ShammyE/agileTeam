@@ -1,9 +1,26 @@
 
-<h1> Associate View </h1>
+   <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>AA Number</th>
+        <th>Team</th>
+        <th>Title</th>
+        <th>Team Position</th>
+        <th>Manager</th>
+        
 
-{{model.associates}}
-
-
-<h1 ng-repeat="associate in model.associates">
-	{{associate.name}}
-</h1>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="associate in model.associates">
+        <td>{{associate.name}}</td>
+        <td>{{associate.aaNum}}</td>
+        <td>{{associate.team.current}}</td>
+        <td>{{associate.title}}</td>
+        <td>{{associate.teamPos}}</td>
+        <td>{{associate.manager}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
