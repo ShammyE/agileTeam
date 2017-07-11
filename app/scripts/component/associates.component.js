@@ -7,14 +7,14 @@ angular.module("agileAppApp").component("associates", {
       let model = this;
 
       model.orderProp = "name";
-      model.activeButton = {
-        name: 1,
-        aaNum: 0,
-        "team.current": 0,
-        title: 0,
-        teamPos: 0,
-        manager: 0
-      }; //["Name", "AAnum", "Team" ,'Title', 'Team Position', 'Manager'] Header array
+      model.activeSortButton = {
+        name: { active: 1, header: "name" },
+        aaNum: { active: 0, header: "AA Number" },
+        "team.current": { active: 0, header: "Team" },
+        title: { active: 0, header: "Title" },
+        teamPos: { active: 0, header: "Team Position" },
+        manager: { active: 0, header: "Manager" }
+      };
 
       associateData.getAllAssociates().then(function(results) {
         model.associates = results.data;
@@ -26,11 +26,11 @@ angular.module("agileAppApp").component("associates", {
       };
 
       model.toggleButtonPrimary = function(prop) {
-        for (let key in model.activeButton) {
+        for (let key in model.activeSortButton) {
           if (key === prop) {
-            model.activeButton[key] = 1;
+            model.activeSortButton[key].active = 1;
           } else {
-            model.activeButton[key] = 0;
+            model.activeSortButton[key].active = 0;
           }
         }
       };

@@ -3,25 +3,24 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th> <button class="btn btn-sm" ng-class= "model.activeButton['name'] ? 'btn-primary' : 'btn-default'" ng-click="model.sortFunc('name')">Name</button></th>
-      <th><button class="btn btn-sm"  ng-class= "model.activeButton['aaNum'] ? 'btn-primary' : 'btn-default'" ng-click="model.sortFunc('aaNum')" >AA Number</button></th>
-      <th><button class="btn btn-sm" ng-class= "model.activeButton['team.current'] ? 'btn-primary' : 'btn-default'" ng-click="model.sortFunc('team.current')" >Team</button></th>
-      <th><button class="btn btn-sm"  ng-class= "model.activeButton['title'] ? 'btn-primary' : 'btn-default'" ng-click="model.sortFunc('title')" >Title</button></th>
-      <th><button class="btn btn-sm" ng-class= "model.activeButton['teamPos'] ? 'btn-primary' : 'btn-default'" ng-click="model.sortFunc('teamPos')" >Team Position</button></th>
-      <th><button class="btn btn-sm" ng-class= "model.activeButton['manager'] ? 'btn-primary' : 'btn-default'" ng-click="model.sortFunc('manager')" >manager</button></th>
+      <th ng-repeat="(key,value) in model.activeSortButton">
+        <button class="btn btn-sm" ng-class="value.active ? 'btn-primary' : 'btn-default'" ng-click="model.sortFunc(key)">
+               {{value.header}} <span class="glyphicon" ng-class= "value.active ? 'glyphicon-chevron-down' : 'glyphicon-chevron-up'"></span>
+           </button>
+      </th>
       </div>
 
     </tr>
   </thead>
   <tbody>
     <tr ng-repeat="associate in model.associates | orderBy:model.orderProp ">
-        <td>{{associate.name}}</td>
-        <td>{{associate.aaNum}}</td>
-        <td>{{associate.team.current}}</td>
-        <td>{{associate.title}}</td>
-        <td>{{associate.teamPos}}</td>
-        <td>{{associate.manager}}</td>
-      </tr>
-    </tbody>
-  </table>
+      <td>{{associate.name}}</td>
+      <td>{{associate.aaNum}}</td>
+      <td>{{associate.team.current}}</td>
+      <td>{{associate.title}}</td>
+      <td>{{associate.teamPos}}</td>
+      <td>{{associate.manager}}</td>
+    </tr>
+  </tbody>
+</table>
 </div>
