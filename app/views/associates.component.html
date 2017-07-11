@@ -1,21 +1,20 @@
 
-
 <br><br><br>
    <table class="table table-striped">
     <thead>
       <tr>
-        <th>Name</th>
-        <th>AA Number</th>
-        <th>Team</th>
-        <th>Title</th>
-        <th>Team Position</th>
-        <th>Manager</th>
-        
+        <th> <button class = "btn btn-primary" ng-click = "model.sortFunc('name')" class = "btn btn-sm">Name</button></th>
+        <th><button class = "btn btn-default" ng-click = "model.sortFunc('aaNum')" class = "btn btn-sm">AA Number</button></th>
+        <th><button class = "btn btn-default" ng-click = "model.sortFunc('team.current')" class = "btn btn-sm">Team</button></th>
+        <th><button class = "btn btn-default" ng-click = "model.sortFunc('title')" class = "btn btn-sm">Title</button></th>
+        <th><button class = "btn btn-default" ng-click = "model.sortFunc('teamPos')" class = "btn btn-sm">Team Position</button></th>
+        <th><button class = "btn btn-default" ng-click = "model.sortFunc('manager')" class = "btn btn-sm">manager</button></th>
+        </div>
 
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="associate in model.associates">
+      <tr ng-repeat="associate in model.associates | orderBy:model.orderProp"">
         <td>{{associate.name}}</td>
         <td>{{associate.aaNum}}</td>
         <td>{{associate.team.current}}</td>
