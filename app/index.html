@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
 
-  <nav class="navbar navbar-default" role="navigation" >
+  <nav class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -24,16 +24,32 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
       </button>
-
-
       <a class="navbar-brand" rel="home" href="#">
           <img src="/images/ferg.jpg" class="img-responsive" >
       </a>
 
-      <a class="navbar-brand" rel="home" href="#">Home</a>
+    </div>
 
+    <div class="collapse navbar-collapse" id="example-navbar-collapse">
 
+      <ul class="nav navbar-nav">
+        <li><a href="#" style="color:white">Home</a></li>
 
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:white">
+                Register
+                <b class = "caret"></b>
+             </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Team</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Project</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#" style="color:white">Status</a></li>
+
+      </ul>
     </div>
   </nav>
 </head>
