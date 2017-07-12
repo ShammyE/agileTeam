@@ -20,7 +20,16 @@ angular
   .config(function($routeProvider) {
     $routeProvider
       .when("/", {
+        template: "<main></main>"
+      })
+       .when("/associates", {
         template: "<associates></associates>"
+      })
+       .when("/projects", {
+        template: "<projects></projects>"
+      })
+       .when("/teams", {
+        template: "<teams></teams>"
       })
       .when("/about", {
         templateUrl: "views/about.html",
