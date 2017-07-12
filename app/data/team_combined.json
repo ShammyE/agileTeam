@@ -1,106 +1,106 @@
 [
     {
-        teamName: "Mystic",
-        functionalArea: "eCommerce",
-        scrumMaster: {
-            name: "Jani Elaine",
-            aaNum: "AAJ1111"
+        "teamName": "Mystic",
+        "functionalArea": "eCommerce",
+        "scrumMaster": {
+            "name": "Jani Elaine",
+            "aaNum": "AAJ1111"
         },
-        dev: [
+        "dev": [
             {
-                name: "Pankaja Natali",
-                aaNum: "AAP1234"
+                "name": "Pankaja Natali",
+                "aaNum": "AAP1234"
             },
             {
-                name: "Antonia Pierrette",
-                aaNum: "AAJ3456"
+                "name": "Antonia Pierrette",
+                "aaNum": "AAJ3456"
             },
             {
-                name: "Sabina Yseult",
-                aaNum: "AAP3456"
+                "name": "Sabina Yseult",
+                "aaNum": "AAP3456"
             },
             {
-                name: "Paulos Meallán",
-                aaNum: "AAP6789"
+                "name": "Paulos Meallán",
+                "aaNum": "AAP6789"
             }
         ],
-        qa: [
+        "qa": [
             {
-                name: "Elmo Nestor",
-                aaNum: "AAP9876"
+                "name": "Elmo Nestor",
+                "aaNum": "AAP9876"
             },
             {
-                name: "Alexis Vasco",
-                aaNum: "AAP5432"
+                "name": "Alexis Vasco",
+                "aaNum": "AAP5432"
             }
         ],
-        ba: [
+        "ba": [
             {
-                name: "Cathy Linda",
-                aaNum: "AAP4323"
+                "name": "Cathy Linda",
+                "aaNum": "AAP4323"
             },
             {
-                name: "Zoe Leokadia",
-                aaNum: "AAP4322"
+                "name": "Zoe Leokadia",
+                "aaNum": "AAP4322"
             }
         ]
     },
     {
-        teamName: "Three North",
-        functionalArea: "Trilogie GUI Intergation",
-        scrumMaster: {
-            name: "Muhammad Fatsani",
-            aaNum: "AAJ222"
+        "teamName": "Three North",
+        "functionalArea": "Trilogie GUI Intergation",
+        "scrumMaster": {
+            "name": "Muhammad Fatsani",
+            "aaNum": "AAJ222"
         },
-        dev: [
+        "dev": [
             {
-                name: "Ashley Apples",
-                aaNum: "AAO1234"
+                "name": "Ashley Apples",
+                "aaNum": "AAO1234"
             },
             {
-                name: "Kim Hummus",
-                aaNum: "AAO3456"
+                "name": "Kim Hummus",
+                "aaNum": "AAO3456"
             },
             {
-                name: "Shannon End",
-                aaNum: "AAO4567"
+                "name": "Shannon End",
+                "aaNum": "AAO4567"
             },
             {
-                name: "Rachel McCow",
-                aaNum: "AAO4567"
+                "name": "Rachel McCow",
+                "aaNum": "AAO4567"
             }
         ],
-        qa: [
+        "qa": [
             {
-                name: "Sean Johnson",
-                aaNum: "AAO5678"
+                "name": "Sean Johnson",
+                "aaNum": "AAO5678"
             },
             {
-                name: "Tim Laws",
-                aaNum: "AAO6789"
+                "name": "Tim Laws",
+                "aaNum": "AAO6789"
             },
             {
-                name: "Taylor Mason",
-                aaNum: "AAO9876"
+                "name": "Taylor Mason",
+                "aaNum": "AAO9876"
             },
             {
-                name: "Chris Newport",
-                aaNum: "AAO5432"
+                "name": "Chris Newport",
+                "aaNum": "AAO5432"
             }
         ],
-        ba: [
+        "ba": [
             {
-                name: "Allan Donkey",
-                aaNum: "AAO4321"
+                "name": "Allan Donkey",
+                "aaNum": "AAO4321"
             },
             {
-                name: "Therm Monitor",
-                aaNum: "AAO4322"
+                "name": "Therm Monitor",
+                "aaNum": "AAO4322"
             },
             {
-                name: "Norma Turntable",
-                aaNum: "AAO4322"
+                "name": "Norma Turntable",
+                "aaNum": "AAO4322"
             }
         ]
     }
-];
+]

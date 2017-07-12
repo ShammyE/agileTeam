@@ -2,8 +2,8 @@ angular.module("agileAppApp").component("associates", {
   templateUrl: "views/associates.component.html",
   controllerAs: "model",
   controller: [
-    "associateData",
-    function(associateData) {
+    "Data",
+    function(Data) {
       let model = this;
 
       model.orderProp = "name";
@@ -16,7 +16,7 @@ angular.module("agileAppApp").component("associates", {
         manager: { active: 0, header: "Manager" }
       };
 
-      associateData.getAllAssociates().then(function(results) {
+      Data.getAllAssociates().then(function(results) {
         model.associates = results.data;
       });
 
