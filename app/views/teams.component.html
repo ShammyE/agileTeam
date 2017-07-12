@@ -10,7 +10,16 @@
   <div >
   <div ng-repeat = "team in model.teams" class = "square">
   	<div class = "content">
-  		<center><h2>{{team.teamName}}</h2></center>
+  		<center>
+          <h1>{{team.teamName}}</h1>
+        
+          <h3>
+          <em>
+            {{team.functionalArea}}
+          </em>
+          </h3>
+      </center>
+
   	</div>
   </div>
   </div>
@@ -29,7 +38,7 @@
     position:absolute;
     height:70%; /* = 100% - 2*10% padding */
     width:80%; /* = 100% - 2*5% padding */
-    padding: 20% 5%;
+    padding: 10% 5%;
   	background-color: #0089CD;
     color: white;
     -webkit-border-top-right-radius: 24px;
