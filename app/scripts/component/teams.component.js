@@ -3,11 +3,20 @@ angular.module("agileAppApp").component("teams", {
   controllerAs: "model",
   controller: ["Data", function(Data) {
   	let model = this;
-			model.query = {}
+  			model.searchTerm = "";
 		  	model.queryBy ="teamName";
+
   		
 		Data.getAllTeams().then(function(results) {
         model.teams = results.data;
+
+        model.queryFilter = function(){
+    		let queryObj = {};
+        	queryObj[model.queryBy] = model.searchTerm;
+        	console.log(queryObj);
+        	return queryObj;
+
+        }
         
       });
 
