@@ -3,9 +3,10 @@ angular.module("agileAppApp").component("teams", {
   controllerAs: "model",
   controller: ["Data", function(Data) {
   	let model = this;
-
-
-  	  Data.getAllTeams().then(function(results) {
+			model.query = {}
+		  	model.queryBy ="teamName";
+  		
+		Data.getAllTeams().then(function(results) {
         model.teams = results.data;
         
       });
