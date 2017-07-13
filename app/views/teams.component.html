@@ -26,6 +26,7 @@
 
 <div>
   <div ng-repeat="team in model.teams | filter: model.queryFilter()" class="square">
+    <a href = "#!/teams/{{team.id}}">
     <div class="content">
       <center>
         <h1>{{team.teamName}}</h1>
@@ -38,6 +39,7 @@
       </center>
 
     </div>
+  </a>
   </div>
 </div>
 
@@ -50,7 +52,7 @@
     /* = width for a 1:1 aspect ratio */
     overflow: hidden;
   }
-  
+
   .content {
     position: absolute;
     height: 70%;
@@ -69,7 +71,7 @@
     -moz-border-bottom-right-radius: 24px;
     -moz-border-bottom-left-radius: 24px;
   }
-  
+
   .content:hover {
     position: absolute;
     height: 80%;

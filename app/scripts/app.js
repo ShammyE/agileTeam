@@ -22,14 +22,17 @@ angular
       .when("/", {
         template: "<main></main>"
       })
-       .when("/associates", {
+      .when("/associates", {
         template: "<associates></associates>"
       })
-       .when("/projects", {
+      .when("/projects", {
         template: "<projects></projects>"
       })
-       .when("/teams", {
+      .when("/teams", {
         template: "<teams></teams>"
+      })
+      .when("/teams/:teamID", {
+        template: "<teamdetail></teamdetail>"
       })
       .when("/about", {
         templateUrl: "views/about.html",
