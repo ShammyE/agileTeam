@@ -1,9 +1,23 @@
 <br>
-<br><br>
+<div class="col-lg-4 col-lg-offset-0">
+  <div class="input-group input-group-lg">
+    <span class="input-group-addon" id="sizing-addon1">Search</span>
+    <input ng-model="model.searchTerm" type="text" class="form-control" aria-describedby="sizing-addon1">
+  </div>
+  <select class="form-control" ng-model="model.queryBy">
+    <option value="name">Associate Name</option>
+    <option value="aaNum">AA Number</option>
+    <option value="teamPos">Associate Position</option>
+    <option value="title">Associate Job Title</option>
+    <option value="manager">Manager</option>
+  </select>
+  <br><br><br>
+</div>
+
 <table class="table table-striped">
   <thead>
     <tr>
-      <th ng-repeat="(key,value) in model.activeSortButton">
+      <th ng-repeat="(key,value) in model.activeSortButton ">
         <button class="btn btn-sm" ng-class="value.active ? 'btn-primary' : 'btn-default'" ng-click="model.sortFunc(key)">
                {{value.header}} <span class="glyphicon" ng-class= "value.active ? 'glyphicon-chevron-down' : 'glyphicon-chevron-up'"></span>
            </button>
@@ -13,7 +27,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="associate in model.associates | orderBy:model.orderProp ">
+    <tr ng-repeat="associate in model.associates | orderBy:model.orderProp  | filter: model.queryFilter()">
       <td>{{associate.name}}</td>
       <td>{{associate.aaNum}}</td>
       <td>{{associate.team.current}}</td>

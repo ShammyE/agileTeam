@@ -5,6 +5,15 @@ angular.module("agileAppApp").component("associates", {
     "Data",
     function(Data) {
       let model = this;
+      model.searchTerm = "";
+      model.queryBy = "name";
+
+      model.queryFilter = function() {
+        let queryObj = {};
+        queryObj[model.queryBy] = model.searchTerm;
+        console.log(queryObj);
+        return queryObj;
+      };
 
       model.orderProp = "name";
       model.activeSortButton = {
