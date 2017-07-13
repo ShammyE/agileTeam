@@ -25,9 +25,8 @@ angular.module("agileAppApp").component("associates", {
         manager: { active: 0, header: "Manager" }
       };
 
-      Data.getAllAssociates().then(function(results) {
-        model.associates = results.data;
-      });
+      model.associates = Data.getAllAssociates();
+      console.log(model.associates);
 
       model.sortFunc = function(prop) {
         model.orderProp = prop;

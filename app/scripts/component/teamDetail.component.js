@@ -3,9 +3,12 @@ angular.module("agileAppApp").component("teamdetail", {
   controllerAs: "model",
   controller: [
     "$routeParams",
-    function($routeParams) {
+    "Data",
+    function($routeParams, Data) {
       let model = this;
       model.teamID = $routeParams.teamID;
+
+      model.team = Data.getTeamById(model.teamID);
     }
   ]
 });

@@ -3,10 +3,27 @@ angular.module("agileAppApp").factory("Data", [
   function($http) {
     return {
       getAllAssociates: function() {
-        return $http.get("data/associates_combined.json");
+        return $.ajax({
+          method: "GET",
+          url: "data/associates_combined.json",
+          async: false
+        }).responseJSON;
       },
-        getAllTeams: function() {
-        return $http.get("data/team_combined.json");
+      getAllTeams: function() {
+        return $.ajax({
+          method: "GET",
+          url: "data/team_combined.json",
+          async: false
+        }).responseJSON;
+      },
+      getTeamById: function(id) {
+        let teams = this.getAllTeams();
+
+        teamfiltered = teams.filter(function(team) {
+          return team.id === id;
+        });
+
+        return teamfiltered[0];
       }
     };
   }
