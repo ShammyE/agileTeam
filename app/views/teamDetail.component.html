@@ -1,5 +1,36 @@
 
 
-<h1>Team {{model.team.teamName}}, This is team {{model.teamID}} </h1>
+<h1>{{model.team.teamName}}</h1>
 
-<code>{{model.team}}</code>
+<h3>Team Focus: {{model.team.functionalArea}} </h3>
+
+<br><br>
+<div class = "container-fluid">
+<div class="row">
+    <div class="col-lg-3">
+    <h2> Developers </h2>
+    <ul style="list-style: none;">
+    <h3><li ng-repeat = "developers in model.team.dev">{{developers.name}}</li></h3>
+  </ul>
+</div>
+<div class="col-lg-3">
+<h2> Scrum Master </h2>
+<ul style="list-style: none;">
+  <h3><li> {{model.team.scrumMaster.name}}</li></h3>
+</ul>
+</div>
+<div class="col-lg-3">
+<h2> Business Analyst </h2>
+<ul style="list-style: none;">
+<h3><li ng-repeat = "ba in model.team.ba">{{ba.name}}</li></h3>
+</ul>
+</div>
+<div class="col-lg-3">
+<h2>  Quality Assurance </h2>
+<ul style="list-style: none;">
+<h3><li ng-repeat = "qa in model.team.qa">{{qa.name}}</li></h3>
+</ul>
+</div>
+
+</div>
+</div>
