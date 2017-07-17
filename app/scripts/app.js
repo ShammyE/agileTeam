@@ -34,6 +34,9 @@ angular
       .when("/teams/:teamID", {
         template: "<teamdetail></teamdetail>"
       })
+      .when("/associates/:associateID", {
+        template: "<associatedetail></associatedetail>"
+      })
       .when("/about", {
         templateUrl: "views/about.html",
         controller: "AboutCtrl",

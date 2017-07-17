@@ -24,6 +24,15 @@ angular.module("agileAppApp").factory("Data", [
         });
 
         return teamfiltered[0];
+      },
+      getAssociateById: function(id) {
+        let associates = this.getAllAssociates();
+
+        associatefiltered = associates.filter(function(associate) {
+          return associate.aaNum === id;
+        });
+
+        return associatefiltered[0];
       }
     };
   }

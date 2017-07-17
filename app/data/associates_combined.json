@@ -1,341 +1,338 @@
 [
-    {
-        "name": "Pankaja Natali",
-        "aaNum": "AAP1234",
-        "title": "Developer I",
-        "teamPos": "dev",
-        "manager": "Parry Mira",
-        "team": {
-            "current": "Mystic",
-            "past": ["Mystic", "Three North"]
-        },
-        "story": {
-            "current": "",
-            "past": []
-        },
-        "lullPeriod": "false"
+  {
+    "name": "Pankaja Natali",
+    "aaNum": "AAP1234",
+    "title": "Developer I",
+    "teamPos": "dev",
+    "manager": "Ashley Apples",
+    "team": {
+      "current": "Mystic",
+      "past": ["Mystic", "Three North"]
     },
-    {
-        "name": "Sabina Yseult",
-        "aaNum": "AAP3456",
-        "title": "Developer II",
-        "teamPos": "dev",
-        "manager": "Parry Mira",
-        "team": {
-            "current": "Mystic",
-            "past": ["Three North"]
-        },
-        "story": {
-            "current": "",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "story": {
+      "current": "",
+      "past": []
     },
-    {
-        "name": "Antonia Pierrette",
-        "aaNum": "AAJ3456",
-        "title": "Developer II",
-        "teamPos": "dev",
-        "manager": "Parry Mira",
-        "team": {
-            "current": "Mystic",
-            "past": []
-        },
-        "story": {
-            "current": "",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Sabina Yseult",
+    "aaNum": "AAP3456",
+    "title": "Developer II",
+    "teamPos": "dev",
+    "manager": "Parry Mira",
+    "team": {
+      "current": "Mystic",
+      "past": ["Three North"]
     },
-    {
-        "name": "Paulos Meallán",
-        "aaNum": "AAP6789",
-        "title": "Developer IV",
-        "teamPos": "dev",
-        "manager": "Parry Mira",
-        "team": {
-            "current": "Mystic",
-            "past": []
-        },
-        "story": {
-            "current": "",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "story": {
+      "current": "",
+      "past": []
     },
-    {
-        "name": "Elmo Nestor",
-        "aaNum": "AAP9876",
-        "title": "QA Analyst II",
-        "teamPos": "qa",
-        "manager": "Marinella Philomena",
-        "team": {
-            "current": "Mystic",
-            "past": ["Three North"]
-        },
-        "story": {
-            "current": "",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Antonia Pierrette",
+    "aaNum": "AAJ3456",
+    "title": "Developer II",
+    "teamPos": "dev",
+    "manager": "Parry Mira",
+    "team": {
+      "current": "Mystic",
+      "past": []
     },
-    {
-        "name": "Alexis Vasco",
-        "aaNum": "AAP5432",
-        "title": "QA Analyst I",
-        "teamPos": "qa",
-        "manager": "Marinella Philomena",
-        "team": {
-            "current": "Mystic",
-            "past": []
-        },
-        "story": {
-            "current": "",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "story": {
+      "current": "",
+      "past": []
     },
-    {
-        "name": "Cathy Linda",
-        "aaNum": "AAP4323",
-        "title": "BA Analyst III",
-        "teamPos": "ba",
-        "manager": "Nerea Hussein",
-        "team": {
-            "current": "Mystic",
-            "past": ["Three North"]
-        },
-        "story": {
-            "current": "",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Paulos Meallán",
+    "aaNum": "AAP6789",
+    "title": "Developer IV",
+    "teamPos": "dev",
+    "manager": "Parry Mira",
+    "team": {
+      "current": "Mystic",
+      "past": []
     },
-    {
-        "name": "Zoe Leokadia",
-        "aaNum": "AAP4322",
-        "title": "BA Analyst VI",
-        "teamPos": "ba",
-        "manager": "Nerea Hussein",
-        "team": {
-            "current": "Mystic",
-            "past": []
-        },
-        "story": {
-            "current": "",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "story": {
+      "current": "",
+      "past": []
     },
-    {
-        "name": "Ashley Apples",
-        "aaNum": "AAO1234",
-        "title": "Developer VI",
-        "teamPos": "dev",
-        "manager": "Parry Mira",
-        "team": {
-            "current": "Three North",
-            "past": []
-        },
-        "story": {
-            "current": "User should be able to use new feature B in SKUNK",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Elmo Nestor",
+    "aaNum": "AAP9876",
+    "title": "QA Analyst II",
+    "teamPos": "qa",
+    "manager": "Marinella Philomena",
+    "team": {
+      "current": "Mystic",
+      "past": ["Three North"]
     },
-    {
-        "name": "Kim Hummus",
-        "aaNum": "AAO3456",
-        "title": "Developer II",
-        "teamPos": "dev",
-        "manager": "Parry Mira",
-        "team": {
-            "current": "Three North",
-            "past": []
-        },
-        "story": {
-            "current": "User should be able to use new feature C in SKUNK",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "story": {
+      "current": "",
+      "past": []
     },
-    {
-        "name": "Shannon End",
-        "aaNum": "AAO4567",
-        "title": "Developer III",
-        "teamPos": "dev",
-        "manager": "Parry Mira",
-        "team": {
-            "current": "Three North",
-            "past": []
-        },
-        "story": {
-            "current": "User should be able to use new feature D in SKUNK",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Alexis Vasco",
+    "aaNum": "AAP5432",
+    "title": "QA Analyst I",
+    "teamPos": "qa",
+    "manager": "Marinella Philomena",
+    "team": {
+      "current": "Mystic",
+      "past": []
     },
-    {
-        "name": "Rachel McCow",
-        "aaNum": "AAO4567",
-        "title": "Developer I",
-        "teamPos": "dev",
-        "manager": "Parry Mira",
-        "team": {
-            "current": "Three North",
-            "past": ["Mystic"]
-        },
-        "story": {
-            "current": "User should be able to use new feature D in SKUNK",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "story": {
+      "current": "",
+      "past": []
     },
-    {
-        "name": "Sean Johnson",
-        "aaNum": "AAO5678",
-        "title": "Developer I",
-        "teamPos": "dev",
-        "manager": "Parry Mira",
-        "team": {
-            "current": "Three North",
-            "past": []
-        },
-        "story": {
-            "current": "User should be able to use new feature E in SKUNK",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Cathy Linda",
+    "aaNum": "AAP4323",
+    "title": "BA Analyst III",
+    "teamPos": "ba",
+    "manager": "Nerea Hussein",
+    "team": {
+      "current": "Mystic",
+      "past": ["Three North"]
     },
-    {
-        "name": "Tim Laws",
-        "aaNum": "AAO6789",
-        "title": "QA Analyst II",
-        "teamPos": "qa",
-        "manager": "Marinella Philomena",
-        "team": {
-            "current": "Three North",
-            "past": ["Mystic"]
-        },
-        "story": {
-            "current": "Feature A in Trilogie SAND needs to be tested",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "story": {
+      "current": "",
+      "past": []
     },
-    {
-        "name": "Taylor Mason",
-        "aaNum": "AAO9876",
-        "title": "QA Analyst I",
-        "teamPos": "qa",
-        "manager": "Marinella Philomena",
-        "team": {
-            "current": "Three North",
-            "past": []
-        },
-        "story": {
-            "current": "Feature B in Trilogie SAND needs to be tested",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Zoe Leokadia",
+    "aaNum": "AAP4322",
+    "title": "BA Analyst VI",
+    "teamPos": "ba",
+    "manager": "Nerea Hussein",
+    "team": {
+      "current": "Mystic",
+      "past": []
     },
-    {
-        "name": "Chris Newport",
-        "aaNum": "AAO5432",
-        "title": "QA Analyst III",
-        "teamPos": "qa",
-        "manager": "Marinella Philomena",
-        "team": {
-            "current": "Three North",
-            "past": []
-        },
-        "story": {
-            "current": "Feature H in SKUNK needs to be tested",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "story": {
+      "current": "",
+      "past": []
     },
-    {
-        "name": "Allan Donkey",
-        "aaNum": "AAO4321",
-        "title": "BA Analyst III",
-        "teamPos": "ba",
-        "manager": "Nerea Hussein",
-        "team": {
-            "current": "Three North",
-            "past": ["Mystic"]
-        },
-        "story": {
-            "current":
-                "Determine affect of feature H in SKUNK needs to be tested",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Ashley Apples",
+    "aaNum": "AAO1234",
+    "title": "Developer VI",
+    "teamPos": "dev",
+    "manager": "Parry Mira",
+    "team": {
+      "current": "Three North",
+      "past": []
     },
-    {
-        "name": "Therm Monitor",
-        "aaNum": "AAO4322",
-        "title": "BA Analyst III",
-        "teamPos": "ba",
-        "manager": "Nerea Hussein",
-        "team": {
-            "current": "Three North",
-            "past": []
-        },
-        "story": {
-            "current":
-                "Determine affect of feature H in SKUNK needs to be tested",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "story": {
+      "current": "User should be able to use new feature B in SKUNK",
+      "past": []
     },
-    {
-        "name": "Norma Turntable",
-        "aaNum": "AAO4322",
-        "title": "BA Analyst II",
-        "teamPos": "ba",
-        "manager": "Nerea Hussein",
-        "team": {
-            "current": "Three North",
-            "past": ["Mystic"]
-        },
-        "story": {
-            "current":
-                "Determine affect of feature H in SKUNK needs to be tested",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Kim Hummus",
+    "aaNum": "AAO3456",
+    "title": "Developer II",
+    "teamPos": "dev",
+    "manager": "Parry Mira",
+    "team": {
+      "current": "Three North",
+      "past": []
     },
-    {
-        "name": "Jani Elaine",
-        "aaNum": "AAJ1111",
-        "title": "Scrummaster II",
-        "teamPos": "sm",
-        "manager": "Arnoud Berit",
-        "team": {
-            "current": "Mystic",
-            "past": []
-        },
-        "story": {
-            "current": "Do Scrum Stuff",
-            "past": []
-        },
-        "lullPeriod": "false"
+    "story": {
+      "current": "User should be able to use new feature C in SKUNK",
+      "past": []
     },
-    {
-        "name": "Muhammad Fatsani",
-        "aaNum": "AAJ222",
-        "title": "Scrummaster II",
-        "teamPos": "sm",
-        "manager": "Arnoud Berit",
-        "team": {
-            "current": "Three North",
-            "past": ["Mystic"]
-        },
-        "story": {
-            "current": "Do Scrum Stuff",
-            "past": []
-        },
-        "lullPeriod": "false"
-    }
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Shannon End",
+    "aaNum": "AAO1362",
+    "title": "Developer III",
+    "teamPos": "dev",
+    "manager": "Parry Mira",
+    "team": {
+      "current": "Three North",
+      "past": []
+    },
+    "story": {
+      "current": "User should be able to use new feature D in SKUNK",
+      "past": []
+    },
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Rachel McCow",
+    "aaNum": "AAO4567",
+    "title": "Developer I",
+    "teamPos": "dev",
+    "manager": "Parry Mira",
+    "team": {
+      "current": "Three North",
+      "past": ["Mystic"]
+    },
+    "story": {
+      "current": "User should be able to use new feature D in SKUNK",
+      "past": []
+    },
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Sean Johnson",
+    "aaNum": "AAO5678",
+    "title": "Developer I",
+    "teamPos": "dev",
+    "manager": "Parry Mira",
+    "team": {
+      "current": "Three North",
+      "past": []
+    },
+    "story": {
+      "current": "User should be able to use new feature E in SKUNK",
+      "past": []
+    },
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Tim Laws",
+    "aaNum": "AAO6789",
+    "title": "QA Analyst II",
+    "teamPos": "qa",
+    "manager": "Marinella Philomena",
+    "team": {
+      "current": "Three North",
+      "past": ["Mystic"]
+    },
+    "story": {
+      "current": "Feature A in Trilogie SAND needs to be tested",
+      "past": []
+    },
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Taylor Mason",
+    "aaNum": "AAO9876",
+    "title": "QA Analyst I",
+    "teamPos": "qa",
+    "manager": "Marinella Philomena",
+    "team": {
+      "current": "Three North",
+      "past": []
+    },
+    "story": {
+      "current": "Feature B in Trilogie SAND needs to be tested",
+      "past": []
+    },
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Chris Newport",
+    "aaNum": "AAO5432",
+    "title": "QA Analyst III",
+    "teamPos": "qa",
+    "manager": "Marinella Philomena",
+    "team": {
+      "current": "Three North",
+      "past": []
+    },
+    "story": {
+      "current": "Feature H in SKUNK needs to be tested",
+      "past": []
+    },
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Allan Donkey",
+    "aaNum": "AAO4321",
+    "title": "BA Analyst III",
+    "teamPos": "ba",
+    "manager": "Nerea Hussein",
+    "team": {
+      "current": "Three North",
+      "past": ["Mystic"]
+    },
+    "story": {
+      "current": "Determine affect of feature H in SKUNK needs to be tested",
+      "past": []
+    },
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Therm Monitor",
+    "aaNum": "AAO4322",
+    "title": "BA Analyst III",
+    "teamPos": "ba",
+    "manager": "Nerea Hussein",
+    "team": {
+      "current": "Three North",
+      "past": []
+    },
+    "story": {
+      "current": "Determine affect of feature H in SKUNK needs to be tested",
+      "past": []
+    },
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Norma Turntable",
+    "aaNum": "AAO4322",
+    "title": "BA Analyst II",
+    "teamPos": "ba",
+    "manager": "Nerea Hussein",
+    "team": {
+      "current": "Three North",
+      "past": ["Mystic"]
+    },
+    "story": {
+      "current": "Determine affect of feature H in SKUNK needs to be tested",
+      "past": []
+    },
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Jani Elaine",
+    "aaNum": "AAJ1111",
+    "title": "Scrummaster II",
+    "teamPos": "sm",
+    "manager": "Arnoud Berit",
+    "team": {
+      "current": "Mystic",
+      "past": []
+    },
+    "story": {
+      "current": "Do Scrum Stuff",
+      "past": []
+    },
+    "lullPeriod": "false"
+  },
+  {
+    "name": "Muhammad Fatsani",
+    "aaNum": "AAJ222",
+    "title": "Scrummaster II",
+    "teamPos": "sm",
+    "manager": "Arnoud Berit",
+    "team": {
+      "current": "Three North",
+      "past": ["Mystic"]
+    },
+    "story": {
+      "current": "Do Scrum Stuff",
+      "past": []
+    },
+    "lullPeriod": "false"
+  }
 ]

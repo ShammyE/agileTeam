@@ -28,7 +28,7 @@
   </thead>
   <tbody>
     <tr ng-repeat="associate in model.associates | orderBy:model.orderProp  | filter: model.queryFilter()">
-      <td>{{associate.name}}</td>
+      <td><a href = "#!/associates/{{associate.aaNum}}">{{associate.name}}</a></td>
       <td>{{associate.aaNum}}</td>
       <td>{{associate.team.current}}</td>
       <td>{{associate.title}}</td>
