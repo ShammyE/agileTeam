@@ -19,7 +19,7 @@ angular.module("agileAppApp").factory("Data", [
       getTeamById: function(id) {
         let teams = this.getAllTeams();
 
-        teamfiltered = teams.filter(function(team) {
+        let teamfiltered = teams.filter(function(team) {
           return team.id === id;
         });
 
