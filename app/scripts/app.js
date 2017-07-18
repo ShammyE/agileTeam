@@ -28,6 +28,9 @@ angular
       .when("/projects", {
         template: "<projects></projects>"
       })
+      .when("/projects/:projID", {
+        template: "<projectdetail></projectdetail>"
+      })
       .when("/teams", {
         template: "<teams></teams>"
       })

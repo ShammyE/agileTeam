@@ -1,0 +1,13 @@
+<h1>{{model.project.name}}</h1>
+
+<h3>Current Project Stories</h3>
+<ul>
+    <li class="well" ng-repeat="story in model.stories">
+        {{story.desc}} <br />
+        done?: {{story.done}} <br />
+        team: {{story.teamId}}
+    </li>
+</ul>
+
+<h3>Teams working on this project</h3>
+<code>{{model.project.teamId}}</code>
