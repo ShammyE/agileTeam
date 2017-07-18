@@ -23,28 +23,36 @@
         <font size="5" style="font-family: 'Arial', Gadget, sans-serif; color: #00446B; padding-left: 40px"><strong>Developers</strong></font>
 
         <ul style="list-style: none;">
-          <h3><li style = "margin-bottom:12px; color: #55595b;" ng-repeat = "developers in model.team.dev"><a href = "#!/associates/{{developers.aaNum}}">{{developers.name}}</a></li></h3>
+          <h3><li style = "margin-bottom:12px; color: #55595b;" ng-repeat = "developers in model.team.dev"><a class = "hvr-grow-rotate" href = "#!/associates/{{developers.aaNum}}">{{developers.name}}</a></li></h3>
         </ul>
       </div>
       <div class="col-lg-3">
         <font size="5" style="font-family: 'Arial', Gadget, sans-serif; color: #00446B; padding-left: 40px"><strong>Scrum Master</strong></font>
         <ul style="list-style: none;">
-          <h3><li style = "color: #55595b;"><a href = "#!/associates/{{model.team.scrumMaster.aaNum}}">{{model.team.scrumMaster.name}}</a></li></h3>
+          <h3><li style = "color: #55595b;"><a class = "hvr-grow-rotate" href = "#!/associates/{{model.team.scrumMaster.aaNum}}">{{model.team.scrumMaster.name}}</a></li></h3>
         </ul>
       </div>
       <div class="col-lg-3">
-          <font size="5" style="font-family: 'Arial', Gadget, sans-serif; color: #00446B; padding-left: 40px"><strong>Business Analyst</strong></font>
+        <font size="5" style="font-family: 'Arial', Gadget, sans-serif; color: #00446B; padding-left: 40px"><strong>Business Analyst</strong></font>
         <ul style="list-style: none;">
-          <h3><li style = "margin-bottom:12px; color: #55595b;" ng-repeat = "ba in model.team.ba"><a href = "#!/associates/{{ba.aaNum}}">{{ba.name}}</a></li></h3>
+          <h3><li style = "margin-bottom:12px; color: #55595b;" ng-repeat = "ba in model.team.ba"><a class = "hvr-grow-rotate" href = "#!/associates/{{ba.aaNum}}">{{ba.name}}</a></li></h3>
         </ul>
       </div>
       <div class="col-lg-3">
         <font size="5" style="font-family: 'Arial', Gadget, sans-serif; color: #00446B; padding-left: 40px"><strong>Quality Analyst</strong></font>
         <ul style="list-style: none;">
-          <h3><li style = "margin-bottom:12px; color: #55595b;" ng-repeat = "qa in model.team.qa"><a href = "#!/associates/{{qa.aaNum}}">{{qa.name}}</a></li></h3>
+          <h3><li style = "margin-bottom:12px; color: #55595b;" ng-repeat = "qa in model.team.qa"><a class = "hvr-grow-rotate" href = "#!/associates/{{qa.aaNum}}">{{qa.name}}</a></li></h3>
         </ul>
       </div>
 
     </div>
   </div>
 </center>
+
+<style>
+  a.hvr-grow-rotate {
+    text-decoration: none;
+    color: #55595b;
+
+  }
+</style>

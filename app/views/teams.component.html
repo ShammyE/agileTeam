@@ -27,7 +27,7 @@
 <div>
   <div ng-repeat="team in model.teams | filter: model.queryFilter()" class="square">
     <a href = "#!/teams/{{team.id}}">
-    <div class="content">
+    <div class="content hvr-curl-top-right">
       <center>
         <h1>{{team.teamName}}</h1>
 
@@ -60,6 +60,7 @@
     width: 80%;
     /* = 100% - 2*5% padding */
     padding: 10% 5%;
+    padding-top: 50px;
     background-color: #aedef9;
     color: #00446B;
     -webkit-border-top-right-radius: 24px;
@@ -74,12 +75,6 @@
 
   .content:hover {
     position: absolute;
-    height: 80%;
-    /* = 100% - 2*10% padding */
-    width: 90%;
-    /* = 100% - 2*5% padding */
-    padding: 10% 5%;
-    padding-top: 50px;
     background-color: #00446B;
     color: white;
   }
