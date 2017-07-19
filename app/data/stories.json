@@ -1,112 +1,112 @@
 [
   {
     "desc": "Add Trologie Form Box",
-    "done": "true",
+    "status": "C",
     "id": "1",
     "projectId": "1",
     "teamId": "3"
   },
   {
     "desc": "Handle Trologie Form Box responses",
-    "done": "false",
+    "status": "N",
     "id": "2",
     "projectId": "1",
     "teamId": "3"
   },
   {
     "desc": "Test Trologie Form Box",
-    "done": "false",
+    "status": "I",
     "id": "3",
     "projectId": "1",
     "teamId": "3"
   },
   {
     "desc": "Test Trologie Form Reponses",
-    "done": "false",
+    "status": "N",
     "id": "4",
     "projectId": "1",
     "teamId": "3"
   },
   {
     "desc": "Add Trologie Title Page",
-    "done": "false",
+    "status": "N",
     "id": "5",
     "projectId": "1",
     "teamId": "8"
   },
   {
     "desc": "Test Trologie Title Page",
-    "done": "false",
+    "status": "P",
     "id": "6",
     "projectId": "1",
     "teamId": "8"
   },
   {
     "desc": "Add Search by whse feature",
-    "done": "false",
+    "status": "P",
     "id": "7",
     "projectId": "3",
     "teamId": "1"
   },
   {
     "desc": "Add Search by Product Number feature",
-    "done": "true",
+    "status": "C",
     "id": "8",
     "projectId": "3",
     "teamId": "2"
   },
   {
     "desc": "Refactor sm9 api",
-    "done": "false",
+    "status": "N",
     "id": "9",
     "projectId": "4",
     "teamId": "4"
   },
   {
     "desc": "Modulate sm9 api",
-    "done": "true",
+    "status": "C",
     "id": "10",
     "projectId": "4",
     "teamId": "4"
   },
   {
     "desc": "Add Sm9 features needed for Workday",
-    "done": "true",
+    "status": "C",
     "id": "11",
     "projectId": "4",
     "teamId": "4"
   },
   {
     "desc": "Intergate Sm9 api into workday",
-    "done": "false",
+    "status": "N",
     "id": "12",
     "projectId": "4",
     "teamId": "5"
   },
   {
     "desc": "Make UI for Triologie Pricing",
-    "done": "false",
+    "status": "P",
     "id": "13",
     "projectId": "5",
     "teamId": "7"
   },
   {
     "desc": "Refactor Pricing algorithm",
-    "done": "true",
+    "status": "C",
     "id": "13",
     "projectId": "5",
     "teamId": "6"
   },
   {
     "desc": "Factor Location into to Pricing algorithm",
-    "done": "true",
+    "status": "P",
     "id": "14",
     "projectId": "5",
     "teamId": "6"
   },
   {
     "desc": "Fix Bug where Price is not displayed if 0",
-    "done": "false",
+    "status": "N",
     "id": "15",
     "projectId": "5",
     "teamId": "7"
