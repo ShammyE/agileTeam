@@ -9,11 +9,12 @@ angular.module("agileAppApp").component("teams", {
       model.queryBy = "teamName";
 
       model.teams = Data.getAllTeams();
+      console.log(model.teams);
 
       model.queryFilter = function() {
         let queryObj = {};
         queryObj[model.queryBy] = model.searchTerm;
-        console.log(queryObj);
+
         return queryObj;
       };
     }

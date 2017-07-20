@@ -3,3 +3,8 @@
 /.tmp
 /.sass-cache
 /app/bower_components
+server/firebase_cred.json
+server/.env
+server/.vscode
+server/node_modules
+server/service-account-key.json

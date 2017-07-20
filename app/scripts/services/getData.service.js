@@ -13,10 +13,10 @@ angular.module("agileAppApp").factory("Data", [
     };
     return {
       getAllAssociates: function() {
-        return getAllData("data/associates_combined.json");
+        return getAllData("/data/associates");
       },
       getAllTeams: function() {
-        return getAllData("data/team_combined.json");
+        return getAllData("/data/teams");
       },
       getTeamById: function(id) {
         let teams = this.getAllTeams();
@@ -37,7 +37,7 @@ angular.module("agileAppApp").factory("Data", [
         return associatefiltered[0];
       },
       getAllProjects: function() {
-        return getAllData("data/projects.json");
+        return getAllData("/data/projects");
       },
       getProjectById: function(id) {
         let projects = this.getAllProjects();
@@ -49,7 +49,7 @@ angular.module("agileAppApp").factory("Data", [
         return projectfiltered[0];
       },
       getAllStories: function() {
-        return getAllData("data/stories.json");
+        return getAllData("/data/stories");
       },
       getStoriesByIdList: function(idList) {
         let stories = this.getAllStories();
