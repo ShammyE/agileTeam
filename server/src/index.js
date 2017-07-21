@@ -1,10 +1,12 @@
 require("dotenv").config();
-
 const admin = require("./firebase-admin");
-const db = admin.database();
 const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
+
+//------------SERVER AND DATABASE SETUP---------------------///
+
+const db = admin.database();
 const app = express();
 
 let rootPath = path.normalize(__dirname + "/../../");
@@ -16,7 +18,13 @@ app.use(bodyParser.json());
 const port = process.env.APP_PORT || 8080;
 const host = process.env.APP_HOST || "127.0.0.1";
 
+//------------CONTROLLERS----------------------------------///
+
 app.get("/data/associates", async function(req, res) {
+  const data = await db.ref("associates").once("value");
+  res.json(data.val());
+});
+app.get("/data/associates/:id", async function(req, res) {
   const data = await db.ref("associates").once("value");
   res.json(data.val());
 });
