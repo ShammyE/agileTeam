@@ -1,8 +1,9 @@
 {
   "name": "agileapp",
   "private": true,
+  "main": "server/src/index.js",
   "scripts": {
-
+    "start": "cd server && sh startServer.sh",
     "test": "karma start test\\karma.conf.js"
   },
   "devDependencies": {
@@ -41,6 +42,11 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
+    "body-parser": "^1.17.2",
+    
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "express-firebase-middleware": "^1.0.0",
     "firebase-admin": "^5.0.1"
   }
 }
