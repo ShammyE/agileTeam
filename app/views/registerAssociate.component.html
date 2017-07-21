@@ -1,0 +1,84 @@
+<br>
+<br><br>
+
+
+<div class="container" style="width: 50%;">
+
+  <div class="panel panel-info" style=" box-shadow: 9px 9px rgba(0,0,0,0.2); background-color: #c4e0f2; padding-bottom: 20px;padding-top: 5px;padding-left: 60px;padding-right:60px">
+
+    <center>
+      <img src="images/fergnoback.png" style="width: 30%; height:auto" />
+    </center>
+
+    <!--None of this is complete, It is a Styled Shell -->
+
+    <form name="form" ng-submit="" role="form">
+      <div class="form-group" ng-class="">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" class="form-control" ng-model="" required />
+      </div>
+      <div class="form-group" ng-class="">
+        <label for="aaNum">AA Number: </label>
+        <input type="text" name="aaNum" id="aaNum" class="form-control" ng-model="" required />
+      </div>
+      <div class="form-group" ng-class="">
+        <label for="title">Job Title: </label>
+        <input type="text" name="title" id="title" class="form-control" placeholder="Job Title" ng-model="" required />
+      </div>
+      <br>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Team Position
+   <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">BA</a></li>
+          <li><a href="#">QA</a></li>
+          <li><a href="#">DEV</a></li>
+          <li><a href="#">SCRUM</a></li>
+        </ul>
+      </div>
+      <br><br>
+      <div class="form-group" ng-class="">
+        <label for="manager">Manager: </label>
+        <input type="text" name="manager" id="manager" class="form-control" placeholder="Manager" ng-model="" required />
+      </div>
+      <br>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Current Team
+   <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">PULLtEAMdATAhERE</a></li>
+          <li><a href="#">PULLtEAMdATAhERE</a></li>
+          <li><a href="#">PULLtEAMdATAhERE</a></li>
+          <li><a href="#">PULLtEAMdATAhERE</a></li>
+        </ul>
+      </div>
+      <br>
+
+      <div class="form-group" ng-class="">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="name@ferguson.com" ng-model="" required />
+      </div>
+
+      <div class="well well-sm">
+        <font size = "4" style = "color:#00446B"><strong>Lull Period</strong></font>
+        <div class="radio">
+          <label  style = "color: green;"><input type="radio" name="optradio"><strong>YES</strong></label>
+          <label  style = "color: Red;"><input type="radio" name="optradio"><strong>NO</strong></label>
+        </div>
+      </div>
+      <div class="form-group" ng-class="">
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" class="form-control" ng-model="" required />
+      </div>
+
+
+      <div class="form-actions">
+        <button type="submit" ng-disabled="form.$invalid || vm.dataLoading" class="btn btn-primary">Login</button>
+
+        <a href="#!/register" class="btn btn-link">Register</a>
+      </div>
+
+    </form>
+
+  </div>
+</div>

@@ -45,6 +45,9 @@ angular
         controller: "AboutCtrl",
         controllerAs: "about"
       })
+      .when("/registerAssociate", {
+        template: "<registerassociate></registerassociate>"
+      })
       .otherwise({
         redirectTo: "/"
       });
